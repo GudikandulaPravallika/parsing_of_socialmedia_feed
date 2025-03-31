@@ -19,3 +19,4 @@ setuptools
 wheel
 gunicorn
 python-dotenv
+whitenoise
