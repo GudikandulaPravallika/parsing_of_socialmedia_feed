@@ -14,7 +14,7 @@ PyMuPDF
 transformers
 torch
 scikit-learn
-mysqlclient
+mysql-connector-python
 setuptools
 wheel
 gunicorn
