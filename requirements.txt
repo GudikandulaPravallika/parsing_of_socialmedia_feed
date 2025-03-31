@@ -1,0 +1,16 @@
+Django>=4.0
+djangorestframework
+psycopg2-binary
+selenium
+reportlab
+twilio
+pillow
+numpy
+pandas
+django-crispy-forms
+crispy-bootstrap4
+pdfplumber
+PyMuPDF
+transformers
+torch
+scikit-learn
