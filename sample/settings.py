@@ -79,13 +79,13 @@ WSGI_APPLICATION = 'sample.wsgi.application'
 
 DATABASES = {
     'default': {
-     'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'db1',
-        'USER': 'root',
-        'PASSWORD': '8143712946',
-        'HOST':'localhost',
-        'PORT':'3306',
-}
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': os.getenv("MYSQLDATABASE"),
+        'USER': "root",  # Railway uses "root" as default user
+        'PASSWORD': os.getenv("MYSQLPASSWORD"),
+        'HOST': os.getenv("MYSQLHOST"),
+        'PORT': "3306",  # Default MySQL port
+    }
 }
 
 
