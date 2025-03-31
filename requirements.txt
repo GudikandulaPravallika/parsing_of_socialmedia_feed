@@ -16,3 +16,4 @@ torch
 scikit-learn
 mysqlclient
 gunicorn
+python-dotenv
